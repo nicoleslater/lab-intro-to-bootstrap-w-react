@@ -5,11 +5,11 @@ const ListGroup = ({ postData }) => {
  
     <div className="container">
         <h3>Posts by Location:</h3>
-        <ol>
+        {/* <ol>
             { postData.map((post) => (
                 post.present ? <li> {post.name}</li> : null
             ))}
-        </ol>
+        </ol> */}
     </div>
     return (
         <div>
