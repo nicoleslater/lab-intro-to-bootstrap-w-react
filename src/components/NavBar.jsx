@@ -3,9 +3,7 @@ import postData from "../data/posts.json";
 // import { Link } from 'react';
 
 const NavBar = () => {
-   console.log(postData)
-      const title = postData.title
-      console.log(title)
+ 
             return (
               <div className="nav-box">
                 <header>

@@ -8,7 +8,8 @@ import Header from "./components/Header";
 
 function App() {
   console.log(postData);
-  console.log(postData.title);
+  
+
   return (
     <main>
 
