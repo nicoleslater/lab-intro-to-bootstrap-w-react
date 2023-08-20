@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import PostInfo from './PostInfo';
 
 const PostListing = ({ postData, togglePostInfo, handleSubmit}) => {
 const [showPostInfo, setShowPostInfo] = useState(false);
