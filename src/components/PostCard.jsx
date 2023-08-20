@@ -13,9 +13,11 @@ const PostCard = ({ post, togglePostInfo, handleSubmit}) => {
     return (
         <div className="post-card">
             <div className="image">
-                <img className="post-img" src={images} alt="" />
+                <img className="post-img" src={images.burano} alt="" />
             </div>
-            
+            <div className="text">
+                <h3> {title + location}</h3>
+            </div>
         </div>
     );
 }
