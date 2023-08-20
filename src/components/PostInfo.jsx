@@ -2,12 +2,12 @@ import React, { useEffect } from 'react';
 
 const PostInfo = ({postData, handleSubmit}) => {
 
-    const title = postData.title;
-    const location = postData.location;
+    // const title = postData.title;
+    // const location = postData[0].location;
 
-    
-    function handleSubmit(e){
-        e.preventDefault();
+
+    function handleSubmit(event){
+        event.preventDefault();
     }
         
    
