@@ -1,11 +1,14 @@
 import React from 'react';
 
-const Nav = () => {
+const NavBar = () => {
     return (
-        <div>
-            
-        </div>
+        <nav className="NavBar">
+           <div className="NavBar">
+            <a className="NavBar">Search posts by Location:</a>            
+            </div> 
+        </nav>
+      
     );
 }
 
-export default Nav;
+export default NavBar;
