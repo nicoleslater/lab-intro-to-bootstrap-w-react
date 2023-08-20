@@ -1,5 +1,5 @@
 import postData from "./data/posts.json";
-import Nav from "./components/NavBar";
+import NavBar from "./components/NavBar";
 import SearchBar from "./components/SearchBar";
 import ListGroup from "./components/ListGroup";
 
