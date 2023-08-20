@@ -10,6 +10,7 @@ function App() {
   console.log(postData);
   return (
     <main>
+      
       <NavBar />
       <PostListing />
       <SearchBar />

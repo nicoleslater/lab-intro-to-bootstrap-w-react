@@ -1,5 +1,6 @@
 import React from 'react';
 import postData from "../data/posts.json";
+import { Link } from 'react';
 
 const NavBar = () => {
    console.log(postData.title)
