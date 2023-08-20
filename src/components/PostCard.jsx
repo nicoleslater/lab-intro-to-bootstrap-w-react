@@ -1,5 +1,6 @@
 import React from 'react';
 import images from '../images';
+import PostInfo from './PostInfo';
 
 const PostCard = ({ post, togglePostInfo}) => {
     const title = post.title;
@@ -7,7 +8,7 @@ const PostCard = ({ post, togglePostInfo}) => {
 
     const [showPostInfo, setShowPostInfo] = useSate(false);
 
-    function togglePostInfo(){
+function togglePostInfo(){
         setShowPostInfo(!showPostInfo);
     }
 
@@ -17,7 +18,15 @@ const PostCard = ({ post, togglePostInfo}) => {
                 <img className="post-img" src={images} alt="" />
             </div>
             <div className="text">
-                <h3> {title + " " + location}</h3>
+                <p> {title + " " + location}</p>
+            </div>
+            <div>
+                <button className="toggle-button" onClick={togglePostInfo}>
+                    {showPostInfo ? "Go Back..." : "Go to Post..."}
+                </button>
+                {showPostInfo ? (
+                    <PostInfo details={post} handleSubmit={handleSubmit} />
+                ) : null}
             </div>
         </div>
     );

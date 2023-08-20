@@ -6,6 +6,7 @@ import PostInfo from "./components/PostInfo";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import PostListing from "./components/PostListing";
+import PostCard from "./components/PostCard";
 
 function App() {
   console.log(postData[0]);
