@@ -4,11 +4,11 @@ import React from 'react';
 
 const NavBar = () => {
  
-  <nav className="">
-  <div className="">
+  <nav className="nav-bar">
+  <div className="nav-bar">
     <a className="">Rosier</a>
     <button
-      className=""
+      className="btn"
       type="button"
       data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent"
@@ -16,7 +16,7 @@ const NavBar = () => {
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <span className=""></span>
+      <span className="nav-bar"></span>
     </button>
     <div className="" id="navbarSupportedContent">
       <ul className="">
@@ -25,10 +25,10 @@ const NavBar = () => {
             Home
           </a>
         </li>
-        <li className="">
+        <li className="nav-item">
           <a className="">Featured</a>
         </li>
-        <li className="">
+        <li className="nav-item">
           <a
             className=""
             id="navbarDropdown"
@@ -38,12 +38,12 @@ const NavBar = () => {
           >
             Learn More
           </a>
-          <ul className="" aria-labelledby="navbarDropdown">
+          <ul className="nav-bar-dropdown" aria-labelledby="navbarDropdown">
             <li>
-              <a className="">About</a>
+              <a className="about">About</a>
             </li>
             <li>
-              <a className="">Contact</a>
+              <a className="contact">Contact</a>
             </li>
             <li>
               <hr className="" />

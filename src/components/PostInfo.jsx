@@ -14,7 +14,7 @@ const PostInfo = () => {
    
     return (
         <div>
-            
+            <h6> Post Info </h6>
         </div>
     );
 }

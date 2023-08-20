@@ -43,6 +43,7 @@ function handleSubmit(event){
                 {/* <p> {postData.title + " " + postData.location}</p> */}
             </div>
             <div>
+                <h6> Post Card</h6>
                 <button className="toggle-button" onClick={togglePostInfo}>
                     {showPostInfo ? "Go Back..." : "Go to Post..."}
                 </button>

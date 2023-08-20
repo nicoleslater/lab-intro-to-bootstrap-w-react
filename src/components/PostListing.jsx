@@ -14,6 +14,7 @@ function handleSubmit(event){
     return (
         <div className="post-listing">
         <div className="image">
+            <h6> Post Listing </h6>
             {/* <img className="post-img" src={images[0]} alt="" /> */}
         </div>
         <div className="text">

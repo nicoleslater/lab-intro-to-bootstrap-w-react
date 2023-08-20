@@ -1,13 +1,14 @@
 import React from 'react';
+import "./Header.css";
 
 const Header = () => {
     return (
         
         <div>
-            <h3>
+            <h6>
                 About
-            </h3>
-            <h2> Popular Posts</h2>
+            </h6>
+            <h6> Popular Posts</h6>
         </div>
     );
 }
