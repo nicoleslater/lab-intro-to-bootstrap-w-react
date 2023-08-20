@@ -1,4 +1,5 @@
 import React from 'react';
+import postData from "../data/posts.json";
 
 const NavBar = () => {
    console.log(postData.title)
@@ -7,15 +8,13 @@ const NavBar = () => {
               <div className="nav-box">
                 <header>
                   <ul className="navbar">
-                    <li className="site-title">
-                      <Link to="/">YouTube</Link>
+                    <li className="list-item">
+                      <Link to="/">About</Link>
                     </li>
                     <li className="list-item">
-                      <Link to="/">Home</Link>
+                      <Link to="/">Popular Posts</Link>
                     </li>
-                    <li className="list-item">
-                      <Link to="/about">About</Link>
-                    </li>
+                  
                   </ul>
                 </header>
               </div>
