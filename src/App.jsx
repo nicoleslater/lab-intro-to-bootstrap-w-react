@@ -5,7 +5,7 @@ import PostInfo from "./components/PostInfo";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import PostListing from "./components/PostListing";
-import PostCard from "./components/PostCard";
+import LocationListing from "./components/LocationListing";
 
 function App() {
   console.log(postData[0]);
@@ -15,12 +15,13 @@ function App() {
     <main>
 
       <NavBar />
-      <PostCard />
+      <Header />
+      <LocationListing />
       <PostListing />
       <SearchBar />
       <Footer />
-      <Header />
       <PostInfo />
+    
     </main>
   );
 }

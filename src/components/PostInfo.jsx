@@ -1,6 +1,7 @@
-import React, { useEffect } from 'react';
+import React, { useState } from 'react';
 
-const PostInfo = ({postData, handleSubmit}) => {
+const PostInfo = () => {
+    const [postInfo, setPostInfo] = useState([]);
 
     // const title = postData.title;
     // const location = postData[0].location;
