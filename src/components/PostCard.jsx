@@ -1,7 +1,7 @@
 import React from 'react';
 import images from '../images';
 
-const PostCard = ({ post, togglePostInfo, handleSubmit}) => {
+const PostCard = ({ post, togglePostInfo}) => {
     const title = post.title;
     const location = post.location;
 
@@ -10,13 +10,14 @@ const PostCard = ({ post, togglePostInfo, handleSubmit}) => {
     function togglePostInfo(){
         setShowPostInfo(!showPostInfo);
     }
+
     return (
         <div className="post-card">
             <div className="image">
-                <img className="post-img" src={images.burano} alt="" />
+                <img className="post-img" src={images} alt="" />
             </div>
             <div className="text">
-                <h3> {title + location}</h3>
+                <h3> {title + " " + location}</h3>
             </div>
         </div>
     );

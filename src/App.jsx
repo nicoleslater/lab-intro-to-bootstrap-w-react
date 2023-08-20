@@ -15,6 +15,7 @@ function App() {
     <main>
 
       <NavBar />
+      <PostCard />
       <PostListing />
       <SearchBar />
       <ListGroup />
