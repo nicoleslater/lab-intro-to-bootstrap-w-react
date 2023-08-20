@@ -1,7 +1,14 @@
 import React, { useEffect } from 'react';
 
-const PostInfo = () => {
- 
+const PostInfo = ({postData, handleSubmit}) => {
+
+    const title = postData.title;
+    const location = postData.location;
+
+    
+    function handleSubmit(e){
+        e.preventDefault();
+    }
         
    
     return (

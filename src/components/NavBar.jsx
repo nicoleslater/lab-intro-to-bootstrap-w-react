@@ -5,13 +5,13 @@ import postData from "../data/posts.json";
 const NavBar = () => {
  
             return (
-              <div className="nav-box">
+              <div className="nav-container">
                 <header>
                   <ul className="navbar">
-                    <li className="list-item">
+                    <li className="nav-item">
                       {/* <Link to="/">About</Link> */}
                     </li>
-                    <li className="list-item">
+                    <li className="nav-item">
                       {/* <Link to="/">Popular Posts</Link> */}
                     </li>
                   

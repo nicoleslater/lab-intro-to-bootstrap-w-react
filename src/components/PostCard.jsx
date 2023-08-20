@@ -2,14 +2,17 @@ import React from 'react';
 import images from '../images';
 import PostInfo from './PostInfo';
 
-const PostCard = ({ post, togglePostInfo}) => {
-    const title = post.title;
-    const location = post.location;
+const PostCard = ({ post, togglePostInfo, handleSubmit}) => {
+    // const title = post.title;
+    // const location = post.location;
 
-    const [showPostInfo, setShowPostInfo] = useSate(false);
+const [showPostInfo, setShowPostInfo] = useState(false);
 
 function togglePostInfo(){
         setShowPostInfo(!showPostInfo);
+    }
+    function handleSubmit(event){
+        event.preventDefault();
     }
 
     return (
@@ -18,7 +21,7 @@ function togglePostInfo(){
                 <img className="post-img" src={images} alt="" />
             </div>
             <div className="text">
-                <p> {title + " " + location}</p>
+                <p> {post.title + " " + post.location}</p>
             </div>
             <div>
                 <button className="toggle-button" onClick={togglePostInfo}>
