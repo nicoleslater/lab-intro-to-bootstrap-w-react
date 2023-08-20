@@ -2,6 +2,7 @@ import React from 'react';
 
 
 const ListGroup = ({ postData }) => {
+ 
     <aside className="aside-container">
         <h3>Posts by Location:</h3>
         <ol>
