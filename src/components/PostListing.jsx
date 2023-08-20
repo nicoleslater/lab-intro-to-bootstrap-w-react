@@ -1,9 +1,11 @@
 import React from 'react';
 import { useState } from 'react';
 import PostInfo from './PostInfo';
+// import {postData} from '../data/posts.json';
 
 const PostListing = ({ postData, togglePostInfo, handleSubmit}) => {
 const [showPostInfo, setShowPostInfo] = useState(false);
+
 
 function togglePostInfo(){
             setShowPostInfo(!showPostInfo);
@@ -12,14 +14,14 @@ function handleSubmit(event){
             event.preventDefault();
         }
     return (
-        <div className="post-listing">
-        <div className="image">
-            <h6> Post Listing </h6>
-            {/* <img className="post-img" src={images[0]} alt="" /> */}
-        </div>
-        <div className="text">
-            {/* <p> {postData.title + " " + postData.location}</p> */}
-        </div>
+        <div>
+        <ul class="list-group">
+        <li class="list-group-item">Post</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+        <li class="list-group-item">A fourth item</li>
+        <li class="list-group-item">And a fifth one</li>
+      </ul>
         <div>
             <button className="toggle-button" onClick={togglePostInfo}>
                 {showPostInfo ? "Go Back..." : "Go to Post..."}
