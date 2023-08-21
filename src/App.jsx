@@ -8,7 +8,7 @@ import PostListing from "./components/PostListing";
 import LocationListing from "./components/LocationListing";
 
 function App() {
-  console.log(postData[0]);
+ 
   
 
   return (
