@@ -16,9 +16,9 @@ function App() {
 
       <NavBar />
       <Header />
-      <LocationListing />
-      <PostListing />
       <SearchBar />
+      <PostListing postlisting={postData} />
+      <LocationListing locationlisting={postData} />
       <Footer />
       <PostInfo />
     

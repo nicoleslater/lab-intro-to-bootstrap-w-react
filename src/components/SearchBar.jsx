@@ -2,11 +2,19 @@ import React from 'react';
 
 const SearchBar = () => {
     return (
-        <div>
-            <h6>
-                SearchBar
-            </h6>
-        </div>
+        
+          <form className="">
+            <input 
+            className=""
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+            />
+            <button className="" type="submit">
+               Search 
+            </button>
+            </form>
+    
     );
 }
 
