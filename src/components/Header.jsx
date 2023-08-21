@@ -3,18 +3,16 @@ import "./Header.css";
 
 const Header = () => {
     return (
-        
-        <div class="container overflow-hidden text-center">
-        <div class="row gx-5">
-        
-          <div class="col">
-           <div class="p-3">About</div>
-          </div>
-          <div class="col">
-            <div class="p-3">Popular Posts</div>
-          </div>
-        </div>
+        <header className="">
+
+       
+        <div class="container px-4 text-center">
+        <h1>
+            Travel is the only thing that makes you richer...
+        </h1>
       </div>
+      </header>
+    
     );
 }
 
