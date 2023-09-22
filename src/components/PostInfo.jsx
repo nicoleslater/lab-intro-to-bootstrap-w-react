@@ -1,22 +1,22 @@
-// import React, { useState } from 'react';
+import React, { useState } from 'react';
 
-// const PostInfo = () => {
-//     const [postInfo, setPostInfo] = useState([]);
+const PostInfo = () => {
+    const [postInfo, setPostInfo] = useState([]);
 
-//     // const title = postData.title;
-//     // const location = postData[0].location;
+    // const title = postData.title;
+    // const location = postData[0].location;
 
 
-//     function handleSubmit(event){
-//         event.preventDefault();
-//     }
+    function handleSubmit(event){
+        event.preventDefault();
+    }
         
    
-//     return (
-//         <div>
-//             <h6> Post Info </h6>
-//         </div>
-//     );
-// }
+    return (
+        <div>
+            <h6> Post Info </h6>
+        </div>
+    );
+}
 
-// export default PostInfo;
+export default PostInfo;
